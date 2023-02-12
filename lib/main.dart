@@ -91,9 +91,9 @@ class _MyWidgetState extends State<Ficha3det> {
             });
           },
           items: const [
-            BottomNavigationBarItem(label: 'fichas', icon: Icon(Icons.list)),
-            BottomNavigationBarItem(label: 'racas', icon: Icon(Icons.book)),
-            BottomNavigationBarItem(label: 'dado', icon: Icon(Icons.gamepad)),
+            BottomNavigationBarItem(label: 'Fichas', icon: Icon(Icons.list)),
+            BottomNavigationBarItem(label: 'Classes', icon: Icon(Icons.book)),
+            BottomNavigationBarItem(label: 'Dado', icon: Icon(Icons.gamepad)),
           ],
         ),
       ),

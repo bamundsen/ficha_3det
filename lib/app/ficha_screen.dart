@@ -159,7 +159,7 @@ class _FichasTelaState extends State<FichasTela> {
                         fillColor: Colors.white,
                         border: OutlineInputBorder(),
                         labelText: "Nome",
-                        hintText: "Nome do personagem",
+                        hintText: "Nome",
                       ),
                     ),
                   ),
@@ -172,7 +172,7 @@ class _FichasTelaState extends State<FichasTela> {
                         fillColor: Colors.white,
                         border: OutlineInputBorder(),
                         labelText: "Classe",
-                        hintText: "Classe do personagem",
+                        hintText: "Classe",
                       ),
                     ),
                   )
@@ -299,8 +299,8 @@ class _FichasTelaState extends State<FichasTela> {
                   filled: true,
                   fillColor: Colors.white,
                   border: OutlineInputBorder(),
-                  labelText: "Desvanragens",
-                  hintText: "Desantagens",
+                  labelText: "Desvantagens",
+                  hintText: "Desvantagens",
                 ),
               ),
               const SizedBox(height: 8),
@@ -414,7 +414,7 @@ class _FichasTelaState extends State<FichasTela> {
     return Scaffold(
       backgroundColor: Colors.indigo[50],
       appBar: AppBar(
-        title: const Text("Fichas"),
+        title: const Text("Fichas de Personagens"),
       ),
       body: _carregando
           ? const Center(

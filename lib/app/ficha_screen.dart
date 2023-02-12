@@ -432,6 +432,10 @@ class _FichasTelaState extends State<FichasTela> {
                       : CircleAvatar(
                           backgroundImage:
                               NetworkImage(_listaTodos.elementAt(index)['url']),
+                          // child: Image.network(
+                          //   _listaTodos.elementAt(index)['url'],
+                          //   fit: BoxFit.scaleDown,
+                          // ),
                         ),
                   title: Text(_listaTodos.elementAt(index)['nome']),
                   subtitle: Text(_listaTodos.elementAt(index)['classe']),
